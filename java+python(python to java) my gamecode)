@@ -1,0 +1,71 @@
+import java.util.*;
+
+public class Main{
+    public class main(String args[]){
+        Random ran = new Random();
+        int player_life = 2;
+        int player_boom = 3;
+        int player_shield = 3;
+
+        int ai_life = 2;
+        int ai_boom = 3;
+        int ai_shield = 3;
+        while(player_life&&ai_life == 0){
+            int ai_choose = ran.nextInt(2)+1;
+                player_choose = int(input("무었을 내실 건가요?         [1]폭탄 [2]방패"))
+
+                if player_choose == 1:
+                    if ai_choose == 1:
+                        print("ai도 폭탄을 냈습니다")
+                        ai_life=-1
+                        ai_boom =-1
+                        player_life=-1
+                        player_boom =-1
+                        print('ai_life:'+ str(ai_life)+'player_life:'+str(player_life))
+                        print('ai_boom:'+ str(ai_boom)+'player_boom:'+str(player_boom))
+                        print('ai_shield:'+ str(ai_shield)+'player_sheild:'+str(player_shield)
+
+                    if ai_choose == 2:
+                        print("ai는 방패을 냈습니다")
+                        ai_shield =-1
+                        player_boom =-1
+                        print('ai_life:'+ str(ai_life)+'player_life:'+str(player_life))
+
+
+                        ai_life=-1
+
+                        player_life=-1
+
+                        print('ai_life:'+ str(ai_life)+'player_life:'+str(player_life))
+                        print('ai_boom:'+ str(ai_boom)+'player_boom:'+str(player_boom))
+
+
+
+                        print("ai는 방패을 냈습니다")
+                        ai_shield =-1
+                        player_boom =-1
+                        print('ai_boom:'+ str(ai_boom)+'player_boom:'+str(player_boom))
+                        print('ai_shield:'+ str(ai_shield)+'player_sheild:'+str(player_shield)
+
+
+
+                            if player_choose == 2:
+                    if ai_choose == 1:
+                        print("ai는 폭탄을 냈습니다")
+                        ai_boom =-1
+                        player_shield =-1
+                        print('ai_life:'+ str(ai_life)+'player_life:'+str(player_life))
+                        print('ai_boom:'+ str(ai_boom)+'player_boom:'+str(player_boom))
+                        print('ai_shield:'+ str(ai_shield)+'player_sheild:'+str(player_shield)
+
+                    if ai_choose == 2:
+                        print("ai도 방패을 냈습니다")
+                        ai_shield =-1
+                        player_shield =-1
+                        print('ai_life:'+ str(ai_life)+'player_life:'+str(player_life))
+                        print('ai_boom:'+ str(ai_boom)+'player_boom:'+str(player_boom))
+                        print('ai_shield:'+ str(ai_shield)+'player_sheild:'+str(player_shield)
+
+
+        }
+}
